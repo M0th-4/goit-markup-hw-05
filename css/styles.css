@@ -637,13 +637,9 @@ overflow: hidden;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-icon:hover,
-.close-icon:focus {
-    fill: #ffffff;
-}
 
 .modal-btn:hover .close-icon,
-.modal-btn:focus {
+.modal-btn:focus .close-icon {
     fill: #ffffff;
 }
 
@@ -660,7 +656,6 @@ overflow: hidden;
 
 .imput-wrap {
     position: relative;
-    margin-bottom: 16px;
 }
 
 .modal-input {
@@ -703,6 +698,10 @@ overflow: hidden;
 }
 
 .modal-block {
+    margin-bottom: 8px;
+}
+
+.modal-comm {
     margin-bottom: 16px;
 }
 
